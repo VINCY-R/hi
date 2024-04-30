@@ -1,0 +1,27 @@
+.bigbox {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gif {
+    position: relative;
+}
+
+.gif .img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gif .luv {
+    position: absolute;
+    top: 0.4rem;
+    right: 1rem;
+    cursor: pointer;
+    color:#000000 ;
+    
+}
+
+.luv:hover {
+    transform: scale(2);
+    transition: all 0.3s ease;
+}
